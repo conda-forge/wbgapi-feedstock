@@ -1,13 +1,13 @@
 {% set name = "wbgapi" %}
-{% set version = "1.0.12" %}
+{% set version = "1.0.14" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 338c3c768bd120b80596b48fa0449ecabc93513ac989c55671dce579dbb3a5be
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 7bbf81cc58a2848f218e3d1cf54a3e0e1e9595aaeb5dfb3fe99a2dc0ab6ab03b
 
 build:
   noarch: python
